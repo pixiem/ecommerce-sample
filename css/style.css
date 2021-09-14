@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  
 }
 .search-field {
   border: none;
@@ -12,13 +13,16 @@ body {
   outline: none;
   border: none;
 }
+#search-click{
+  border: 1px solid white;
+  background-image: linear-gradient(to right top, #370521, #5b0042, #7a006f, #8d00a8, #8d12eb);
+}
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 277px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
 }
 .search-button {
   padding: 10px 50px;
@@ -42,6 +46,35 @@ body {
   margin: 10px;
   padding: 10px;
   transition: 0.6s;
+ 
+  border-radius: 15px;
+  
+  
+}
+
+#addToCart-btn{
+  background: #DF3D08;
+  background: -webkit-linear-gradient(right, #DF3D08, #C31EDD);
+  background: -moz-linear-gradient(right, #DF3D08, #C31EDD);
+  background: linear-gradient(to left, #DF3D08, #C31EDD);
+}
+#details-btn{
+  background: #DF3D08;
+  background: -webkit-linear-gradient(right, #DF3D08, #C31EDD);
+  background: -moz-linear-gradient(right, #DF3D08, #C31EDD);
+  background: linear-gradient(to left, #DF3D08, #C31EDD);
+}
+.design{
+  
+  background-image: linear-gradient(to right top, #370521, #5b0042, #7a006f, #8d00a8, #8d12eb);
+  border-radius: 15px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#buy-button{
+  background-image: linear-gradient(to right top, #370521, #5b0042, #7a006f, #8d00a8, #8d12eb);
+
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -49,8 +82,10 @@ body {
   border: 1px solid cyan;
 }
 .product-image {
-  width: 150px;
-  height: 150px;
+ 
+  width: 164px;
+  height: 161px;
+  
 }
 .cart {
   width: 350px;
