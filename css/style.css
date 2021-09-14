@@ -35,7 +35,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+.product{
+  margin-left: 50px;
+}
 .single-product {
+  margin: 10px;
   padding: 10px;
   transition: 0.6s;
 }
